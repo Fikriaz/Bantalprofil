@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxWidth="Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1200.0" style="-fx-background-color: EAF5E8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginpagebantal.FXMLmemantauPerkembanganController">
+   <children>
+      <BorderPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1200.0" style="-fx-background-color: EAF5E8EAF5E8;">
+         <left>
+            <VBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="610.0" prefWidth="275.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="275.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="76.0" layoutX="97.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/man.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="81.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harris Marendra">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Line endX="186.0" layoutX="89.0" layoutY="147.0" startX="-100.0" />
+                        <Button alignment="BASELINE_LEFT" layoutX="12.0" layoutY="173.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: white;" text="               Dasbor">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="12.0" layoutY="229.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: white;" text="               Konsultasi">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="12.0" layoutY="285.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="249.0" style="-fx-background-color: white;" text="              Memantau Perkembangan">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="12.0" layoutY="341.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: white;" text="              Profil">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Line endX="185.99996948242188" layoutX="89.0" layoutY="397.0" startX="-100.0" />
+                        <Text layoutX="88.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pengaturan">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Button alignment="BASELINE_LEFT" layoutX="12.0" layoutY="462.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: white;" text="              Pengaturan Utama">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="12.0" layoutY="518.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: white;" text="              Notifikasi">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/dashboard.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/consulting.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/notes.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/user.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/settings.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/bell.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </VBox>
+         </left>
+         <top>
+            <HBox maxWidth="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="1200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <ImageView fitHeight="130.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/Bantuan%20Kesehatan%20Mental-2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="60.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tentang Kami">
+                     <HBox.margin>
+                        <Insets left="100.0" top="53.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Menu Utama">
+                     <HBox.margin>
+                        <Insets left="30.0" top="53.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pelayanan Terdekat">
+                     <HBox.margin>
+                        <Insets left="30.0" top="53.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Diskusi">
+                     <HBox.margin>
+                        <Insets left="30.0" top="53.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="240.0">
+                     <HBox.margin>
+                        <Insets left="115.0" top="49.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <BorderPane.margin>
+                  <Insets right="2.0" />
+               </BorderPane.margin>
+            </HBox>
+         </top>
+         <center>
+            <VBox minWidth="-Infinity" prefHeight="611.0" prefWidth="588.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="#14c38e" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagaimana">
+                     <font>
+                        <Font name="Avenir Book" size="40.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" top="2.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Text fill="#14c38e" strokeType="OUTSIDE" strokeWidth="0.0" text="Perasaanmu Hari">
+                     <font>
+                        <Font name="Avenir Book" size="40.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" top="-20.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Text fill="#14c38e" strokeType="OUTSIDE" strokeWidth="0.0" text="Ini?">
+                     <font>
+                        <Font name="Avenir Book" size="40.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" top="-20.0" />
+                     </VBox.margin>
+                  </Text>
+                  <BorderPane maxWidth="-Infinity" prefHeight="56.0" prefWidth="503.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                     <left>
+                        <TextField maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="21.0" prefWidth="78.0" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="17.0" top="-3.0" />
+                           </BorderPane.margin>
+                        </TextField>
+                     </left>
+                     <top>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Durasi tidur malam (jam) : 0.0" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="-286.0" top="5.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                     </top>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="56.0" prefWidth="503.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <top>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mood depresi paling ekstrim hari ini ( Pesimis, sedih, depresi , dll)" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="-65.0" top="6.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                     </top>
+                     <VBox.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </VBox.margin>
+                     <center>
+                        <HBox prefHeight="34.0" prefWidth="485.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <CheckBox fx:id="Mooddeptdkada" mnemonicParsing="false" prefHeight="10.0" prefWidth="89.0" text="Tidak ada">
+                                 <HBox.margin>
+                                    <Insets left="18.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="Mooddepringan" mnemonicParsing="false" text="Ringan">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="Mooddepsedang" mnemonicParsing="false" text="Sedang">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="Mooddepparah" mnemonicParsing="false" text="Parah">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                     </center>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="56.0" prefWidth="503.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <top>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mood tinggi paling ekstrim hari ini (Optimis, antusias, bahagia, dll)" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="-62.0" top="6.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                     </top>
+                     <center>
+                        <HBox prefHeight="34.0" prefWidth="485.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <CheckBox fx:id="Moodtinggitdkada" mnemonicParsing="false" text="Tidak ada">
+                                 <HBox.margin>
+                                    <Insets left="18.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="Moodtinggiringan" mnemonicParsing="false" text="Ringan">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="Moodtinggisedang" mnemonicParsing="false" text="Sedang">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="Moodtinggiparah" mnemonicParsing="false" text="Parah">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                     </center>
+                     <VBox.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="56.0" prefWidth="503.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <top>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rasa cemas paling ekstrim hari ini" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="-258.0" top="6.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                     </top>
+                     <center>
+                        <HBox prefHeight="34.0" prefWidth="485.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <CheckBox fx:id="rasacemastdkada" mnemonicParsing="false" text="Tidak ada">
+                                 <HBox.margin>
+                                    <Insets left="18.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="rasacemasringan" mnemonicParsing="false" text="Ringan">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="rasacemassedang" mnemonicParsing="false" text="Sedang">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="rasacemasparah" mnemonicParsing="false" text="Parah">
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                     </center>
+                     <VBox.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <VBox.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </VBox.margin>
+                     <left>
+                        <CheckBox fx:id="gejalapsiktharini" mnemonicParsing="false" text="Gejala psikotik hari ini" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <BorderPane.margin>
+                              <Insets left="18.0" />
+                           </BorderPane.margin>
+                        </CheckBox>
+                     </left>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <left>
+                        <CheckBox fx:id="ldknemosi" mnemonicParsing="false" text="Mengalami ledakan emosi" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <BorderPane.margin>
+                              <Insets left="18.0" />
+                           </BorderPane.margin>
+                        </CheckBox>
+                     </left>
+                     <VBox.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <left>
+                        <CheckBox fx:id="meettenagaahli" mnemonicParsing="false" text="Menemui tenaga ahli hari ini" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <BorderPane.margin>
+                              <Insets left="18.0" />
+                           </BorderPane.margin>
+                        </CheckBox>
+                     </left>
+                     <VBox.margin>
+                        <Insets left="296.0" top="-100.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <BorderPane maxWidth="-Infinity" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+                     <left>
+                        <CheckBox fx:id="sulitfokus" mnemonicParsing="false" text="Sulit untuk fokus " BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <BorderPane.margin>
+                              <Insets left="18.0" />
+                           </BorderPane.margin>
+                        </CheckBox>
+                     </left>
+                     <VBox.margin>
+                        <Insets left="296.0" top="20.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </BorderPane>
+                  <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="76.0" style="-fx-background-color: #4DD1A9; -fx-background-radius: 8;" text="Simpan">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="212.0" top="18.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btambah" mnemonicParsing="false" onAction="#scene2" prefHeight="34.0" prefWidth="76.0" style="-fx-background-color: #4DD1A9; -fx-background-radius: 8;" text="Lanjut">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="296.0" top="-34.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </Button>
+               </children>
+            </VBox>
+         </center>
+         <right>
+            <VBox prefHeight="611.0" prefWidth="338.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih Tanggal">
+                     <VBox.margin>
+                        <Insets top="125.0" />
+                     </VBox.margin>
+                  </Text>
+                  <DatePicker prefHeight="26.0" prefWidth="240.0">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </DatePicker>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Catatan">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Text>
+                  <TextField maxWidth="-Infinity" prefHeight="336.0" prefWidth="240.0">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

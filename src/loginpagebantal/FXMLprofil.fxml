@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="610.0" prefWidth="925.0" style="-fx-background-color: EAF5E8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginpagebantal.FXMLmemantauPerkembanganController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="351.0" layoutX="106.0" layoutY="69.0" stroke="#fafafa" strokeType="INSIDE" width="240.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="106.0" fitWidth="112.0" layoutX="173.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/man.png" />
+         </image>
+      </ImageView>
+      <Line endX="119.99996948242188" layoutX="226.0" layoutY="197.0" startX="-119.99999237060547" />
+      <Text layoutX="115.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField layoutX="113.0" layoutY="236.0" prefHeight="34.0" prefWidth="225.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <Text layoutX="114.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal Lahir">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField layoutX="113.0" layoutY="312.0" prefHeight="34.0" prefWidth="225.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <Line endX="119.99996948242188" layoutX="226.0" layoutY="358.0" startX="-119.99999237060547" />
+      <Button layoutX="156.0" layoutY="374.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="138.0" style="-fx-background-color: #4DD1A9;" text="Edit Profil" textFill="#0d0d0d">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="536.0" layoutX="421.0" layoutY="37.0" stroke="WHITE" strokeType="INSIDE" width="388.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Text layoutX="463.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField layoutX="463.0" layoutY="69.0" prefHeight="34.0" prefWidth="269.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <Text layoutX="462.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField layoutX="462.0" layoutY="145.0" prefHeight="34.0" prefWidth="270.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField layoutX="462.0" layoutY="219.0" prefHeight="34.0" prefWidth="270.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField layoutX="462.0" layoutY="295.0" prefHeight="34.0" prefWidth="270.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField layoutX="462.0" layoutY="516.0" prefHeight="34.0" prefWidth="270.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField layoutX="462.0" layoutY="374.0" prefHeight="34.0" prefWidth="270.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField layoutX="462.0" layoutY="445.0" prefHeight="34.0" prefWidth="270.0">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </TextField>
+      <Text layoutX="463.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jenis Kelamin">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="464.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nomor hp">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="462.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Riwayat Kesehatan Mental">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="461.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pekerjaan">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="461.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kota / Kabupaten">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

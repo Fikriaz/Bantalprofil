@@ -1,0 +1,117 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1200.0" style="-fx-background-color: EAF5E8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginpagebantal.FXMLpendaftaranController">
+   <children>
+      <Label fx:id="label" alignment="TOP_CENTER" layoutX="563.0" layoutY="110.0" text="Daftar">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="80.0" layoutY="232.0" text="Nama ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="68.0" layoutY="416.0" prefHeight="27.0" prefWidth="137.0" text="Tanggal Lahir">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="672.0" layoutY="232.0" prefHeight="27.0" prefWidth="83.0" text="Pekerjaan">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="80.0" layoutY="468.0" prefHeight="27.0" prefWidth="223.0" text="Riwayat kesehatan Mental">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="80.0" layoutY="297.0" text="Email ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="672.0" layoutY="297.0" prefHeight="27.0" prefWidth="94.0" text="Nomor HP">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="672.0" layoutY="357.0" text="Kota/ Kabupaten">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="bSimpan" layoutX="543.0" layoutY="571.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="112.0" text="Simpan" textFill="#050505">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="rbPria" layoutX="839.0" layoutY="415.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="123.0" text="Laki - Laki">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbWanita" layoutX="989.0" layoutY="416.0" mnemonicParsing="false" text="Perempuan" toggleGroup="$gender">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="tfPekerjaan" layoutX="325.0" layoutY="228.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="TOP_CENTER" layoutX="54.0" layoutY="356.0" prefHeight="27.0" prefWidth="137.0" text="Password ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPekerjaan1" layoutX="325.0" layoutY="293.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfPekerjaan12" layoutX="325.0" layoutY="353.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfPekerjaan121" layoutX="325.0" layoutY="412.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <ChoiceBox layoutX="325.0" layoutY="469.0" prefHeight="26.0" prefWidth="274.0" />
+      <TextField fx:id="tfPekerjaan1211" layoutX="839.0" layoutY="353.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfPekerjaan12111" layoutX="839.0" layoutY="293.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfPekerjaan121111" layoutX="839.0" layoutY="228.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="274.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="TOP_CENTER" layoutX="672.0" layoutY="415.0" text="Jenis Kelamin">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
